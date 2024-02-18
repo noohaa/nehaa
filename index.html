@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Potfolio Website</title>
+        <head>
+           <link rel="stylesheet" href="style.css">
+           <script src="https://kit.fontawesome.com/3e2bd00b53.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>COMPUTER SCIENCE ENGINEER</p>
+                <h1>Hi, I'm <span>Neha</span><br>Farheen from India</h1>
+            </div>
+        </div>
+        
+        
+         <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am an enthusiastic and dedicated college student currently pursuing a B.tech in computer science engineering.
+                             I have a unique viewpoint and an efficient problem-solving methodology.
+                              I intend to put the knowledge I have through my coursework, self-study, and hard work to use during my internship at your firm while looking forward to enhancing my knowledge which aligns with my interests. </p>
+                    
+
+
+                              <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                              </div>
+                              <div class="tab-contents active-tab" id="Skills">
+                                <ul>
+                                    <li>JAVA</li><br>
+                                    <li>C</li><br>
+                                    <li>PYTHON</li><br>
+                                    <li>MySQL</li><br>
+                                    <li>COULD</li><br>
+                                    <li>HTML/CSS</li><br>
+                                    <li>UI/UX</li>
+                                </ul>
+                              </div>
+                              <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>2023</span><br>Web Development intern at Intern Pe</li>
+                                                            
+                                </ul>
+                              </div>
+                              <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>2024 - current</span><br>Computer Science Engineering from The Oxford College Of Engineering</li>
+                                    <li><span>2019</span><br>Christ Junior College</li>
+                                    <li><span>2017</span><br>Christ School</li>
+
+                                </ul>
+                              </div>
+  
+                            </div>
+                </div>
+            </div>
+         </div>
+     
+     <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+                       <div class="Project-list">
+
+                       <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Remote ICU Monitoring using IoT System and Machine Learning</h2>
+                        <p>represents a pioneering endeavor to harness the power of Internet of Things (IoT) and advanced machine learning techniques in the realm of critical care.</p>
+                        <a href="#">Learn more</a>
+                       </div>
+
+                       <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>ONLINE VOTING SYSTEM</h2>
+                        <p>Develop a software application that considerably reduced the manual hours of work spent on record keeping and calculating votes.</p>
+                        <a href="#">Learn more</a>
+                       </div>
+
+                       <div>
+                        <i class="fa-solid fa-blog"></i>
+                        <h2>PERSONAL PORTFOLIO WEBSITE</h2>
+                        <p>Designed using HTML and CSS</p>
+                        <a href="#">Learn more</a>
+                       </div>
+                       
+
+    
+
+</div>
+</div></div>
+<!----------------------------portfolio----------------------------------->
+<div id ="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="../port/images/work-1.png">
+            <div class="layer">
+                <h3>To do List</h3>
+                    <P>Designed to add and remove tasks to the lists and store
+                    them in the database. 
+                    User can access custom lists by typing listname in the url.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+
+            <div class="work">
+                <img src="../port/images/work-2.png">
+                <div class="layer">
+                <h3>Online Shopping App</h3>
+                    <P>Clone App of online Shopping Platforms</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+</div>
+        <div class="work">
+            <img src="../port/images/work-3.png">
+            <div class="layer">
+            <h3>Tic Tac Toe Game</h3>
+                    <P>Was designed to play tic tac toe game</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+</div>
+</div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+
+<!---------------------contact------------->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>nehafarheen54@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/neha-farin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/noohaa"><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.instagram.com/_nehafarin?igsh=anI3ejdzbjlteTRu&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/Neha farheen.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button> 
+            </form>
+            <span id="msg"></span>
+        </div>
+</div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Neha. Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+
+
+
+
+
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+    
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+        
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx_2HwgqdmC8ztgcLrvAHjBQT4pVtNe795EBNb4VeQr5z5daIvRlP7PqJF-RlQp2NZF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"   
+            setTimeout(function(){
+            msg.innerHTML = ""
+            },5000)
+            form.reset()
+             })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+    </body>
+</html>
